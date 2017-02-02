@@ -1,9 +1,9 @@
 {
   "name": "basic-webpack-babel",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic webpack/babel template with webpack-dev-server",
   "main": "index.js",
-  "author": "",
+  "author": "Matthew French",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.22.1",
@@ -15,7 +15,7 @@
     "webpack-dev-server": "^1.16.3"
   },
   "scripts": {
-    "start": "webpack-dev-server --config config/webpack.dev.config.js --env development",
+    "start": "webpack-dev-server --config config/webpack.dev.config.js --env development --inline",
     "build": "webpack --config config/webpack.dev.config.js --env production",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
