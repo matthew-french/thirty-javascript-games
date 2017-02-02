@@ -15,7 +15,7 @@
     "webpack-dev-server": "^1.16.3"
   },
   "scripts": {
-    "start": "webpack-dev-server --config config/webpack.dev.config.js --env development --inline",
+    "start": "webpack-dev-server --config config/webpack.dev.config.js --env development --inline --open",
     "build": "webpack --config config/webpack.dev.config.js --env production",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
