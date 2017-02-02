@@ -1,0 +1,43 @@
+# Pulled from Gist: https://gist.github.com/bginbey/0fcbf2392d57a8f60a87/
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Temporary files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+.tmp
+*.un~
+*~
+
+# Compiled output
+/dist
+/tmp
+
+# Dependencies
+node_modules/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+Session.vim
+.netrwhist
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System files
+.DS_Store
+Thumbs.db
