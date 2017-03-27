@@ -10,7 +10,7 @@
 *~
 
 # Compiled output
-/dist
+/build
 /tmp
 
 # Dependencies
